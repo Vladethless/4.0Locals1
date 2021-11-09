@@ -1569,6 +1569,24 @@ Banner Area Style
 .banner-area.bg-2 {
   background-image: url(../../assets/images/banner/banner-bg-2.jpg);
 }
+.slider__items {
+  counter-reset: slide;
+}
+
+.slider__item {
+  counter-increment: slide;
+}
+
+.slider__item>div::before {
+  content: counter(slide);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+}
 
 .banner-area.bg-2::before {
   background-color: transparent;
@@ -1589,7 +1607,9 @@ Banner Area Style
   text-align: left;
 }
 
-.banner-area.bg-2 .banner-content h1 {
+.banner-area.bg-2 .banner-content .main {
+  font-size: 40px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -2115,7 +2135,9 @@ About Area Style
   max-width: 650px;
   margin-left: auto;
 }
-
+.about-content-wrap h1{
+  color: #ffffff;
+}
 .about-tabs-wrap .tabs-button .nav-tabs {
   text-align: center;
   margin: auto;
@@ -2482,6 +2504,7 @@ Luxury Villa Area Style
 .luxury-villa-content {
   padding-top: 100px;
   margin-left: 30px;
+  padding-bottom: 100px;
 }
 
 .luxury-villa-content h2 {
@@ -2938,7 +2961,7 @@ Client Area Style
   color: #1668e1;
 }
 
-.single-client .avatar h3 {
+.single-client .avatar p {
   font-size: 18px;
   margin-bottom: 4px;
 }
@@ -3530,19 +3553,23 @@ Counter Area Style
   margin-bottom: 30px;
 }
 
-.single-counter h2 {
+.single-counter p .odometer {
   font-size: 50px;
   color: #1668e1;
-  margin-top: -13px;
+  margin-top: -20px;
 }
 
-.single-counter h2 .target {
-  top: 3px;
-  margin-left: -15px;
+.single-counter p .target {
+  font-size: 50px;
+  color: #1668e1;
+  top: -3px;
+  margin-left: -5px;
 }
 
-.single-counter h4 {
-  font-size: 20px;
+.single-counter p {
+  color: #000000;
+  font-weight: 700;
+  font-size: 25px;
   margin-bottom: -1px;
 }
 
@@ -3594,7 +3621,7 @@ Page Title Area Style
   position: relative;
 }
 
-.page-title-area .page-title-content h2 {
+.page-title-area .page-title-content h1 {
   margin-bottom: 0;
   font-size: 50px;
 }
