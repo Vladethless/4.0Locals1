@@ -1110,8 +1110,8 @@ Banner Area Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 297px;
-  padding-bottom: 170px;
+  padding-top: 280px;
+  padding-bottom: 250px;
 }
 
 .banner-area.style-two {
@@ -2823,7 +2823,7 @@ Agent Villa Area Style
 Client Area Style
 ======================================================*/
 .clients-area {
-  background-image: url(../../assets/images/clients/client-bg.jpg);
+  background-image: url(../../assets/images/about_client.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3598,7 +3598,7 @@ Page Title Area Style
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  background-image: url(../../assets/images/page-bg/page-bg-1.jpg);
+  background-image: url(../../assets/images/unpic.jpg);
 }
 
 .page-title-area::before {
@@ -3608,13 +3608,13 @@ Page Title Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
   opacity: 0.5;
   z-index: -1;
 }
 
 .page-title-area.bg-1 {
-  background-image: url(../../assets/images/page-bg/page-bg-1.jpg);
+  background-image: url(../../assets/images/unpic.jpg);
 }
 
 .page-title-area .page-title-content {
@@ -3624,6 +3624,7 @@ Page Title Area Style
 .page-title-area .page-title-content h1 {
   margin-bottom: 0;
   font-size: 50px;
+  color: white;
 }
 
 .page-title-area .page-title-content ul {

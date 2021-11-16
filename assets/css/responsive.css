@@ -345,7 +345,7 @@
     height: 400px;
   }
   .luxury-villa-img.bg-img {
-    height: 400px;
+    height: 220.estimate-contentpx;
   }
   .luxury-villa-img.bg-img::before {
     display: none;
@@ -650,6 +650,8 @@
   }
   .estimate-content {
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .clients-area .p-0 {
     padding-left: 12px !important;
@@ -1077,6 +1079,8 @@
     display: none;
   }
   .estimate-content {
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
     margin-right: 0;
   }
