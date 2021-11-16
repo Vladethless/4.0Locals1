@@ -1106,7 +1106,7 @@ Banner Area Style
   position: relative;
   z-index: 1;
   height: 100%;
-  background-image: url(../../assets/images/banner/banner-bg.jpg);
+  background-image: url(../../assets/images/index_main.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1567,7 +1567,7 @@ Banner Area Style
 }
 
 .banner-area.bg-2 {
-  background-image: url(../../assets/images/banner/banner-bg-2.jpg);
+  background-image: url(../../assets/images/index_main.jpg);
 }
 .slider__items {
   counter-reset: slide;
@@ -2208,7 +2208,7 @@ About Area Style
 }
 
 .about-img.style-two {
-  background-image: url(../../assets/images/about-img-2.jpg);
+  background-image: url(../../assets/images/index_2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2556,7 +2556,7 @@ Luxury Villa Area Style
 }
 
 .luxury-villa-img.bg-img {
-  background-image: url(../../assets/images/luxury-villa-bg.jpg);
+  background-image: url(../../assets/images/index_11.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
