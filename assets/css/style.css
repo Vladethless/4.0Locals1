@@ -102,9 +102,10 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 15px;
   line-height: 1.8;
+  font-weight: 500;
 }
 
 p:last-child {
@@ -228,7 +229,12 @@ Bg-color Style*/
 .bg-color {
   background-color: #f9fafb;
 }
-
+.center{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  color: #121212;
+}
 /*
 Default Btn Area Style*/
 .default-btn {
@@ -337,6 +343,10 @@ Section Title Area Style*/
 .section-title p {
   max-width: 600px;
   margin: auto;
+  font-size: 25px;
+  font-weight: 700;
+  color: #151623;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title.white-title span {
@@ -1611,6 +1621,7 @@ Banner Area Style
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .banner-area.bg-2 .banner-content .main-search-wrap {
@@ -1942,7 +1953,7 @@ Properties Area Style
   display: inline-block;
 }
 
-.single-properties .properties-content .price-wishlist li span {
+.single-properties .properties-content .price-wishlist h3 {
   font-size: 24px;
   color: #1668e1;
   font-weight: 600;
@@ -4740,13 +4751,19 @@ Main Content Text Style
   margin-bottom: 0;
 }
 
-.main-content-text ul li i {
-  position: absolute;
+.main-content-text .list  .ri-check-line {
   top: -6px;
   left: 0;
   color: #1668e1;
   font-size: 25px;
 }
+.main-content-text .list .main {
+  color: #151623;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
 
 .main-content-text ol {
   padding-left: 18px;
