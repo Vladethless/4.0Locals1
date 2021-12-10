@@ -3008,8 +3008,8 @@ Client Area Style
 
 .client-img img {
   border-radius: 0 4px 4px 0;
+  background-image: url(../../assets/images/about_contact.jpg);
 }
-
 /*
 Blog Area Style
 ======================================================*/
